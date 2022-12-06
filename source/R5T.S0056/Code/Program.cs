@@ -7,7 +7,8 @@ namespace R5T.S0056
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            //PathScripts.Instance.ResolveGlobbedRelativePath();
+            PathScripts.Instance.RebaseGlobbedRelativePath();
         }
     }
 }
